@@ -1,13 +1,12 @@
 <template>
   <div>
-    <center>
-      <h1>User List</h1>
-    </center>
-    <div class="card" v-for="(user, index) in users" :key="index">
-      <div class="card-body">
-        <h5 class="card-title">{{ user.name }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ user.email }}</h6>
-        <p class="card-text">{{ user.company.catchPhrase }}</p>
+    <h1>User List</h1>
+
+    <div v-for="(user, index) in users" :key="index">
+      <div>
+        <h5>{{ user.name }}</h5>
+        <h6>{{ user.email }}</h6>
+        <p>{{ user.company.catchPhrase }}</p>
       </div>
     </div>
   </div>
