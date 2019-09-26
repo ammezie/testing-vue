@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld renders props.msg when passed: new message 1`] = `"new message This is a kind of paragraph"`;

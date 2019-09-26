@@ -9,6 +9,7 @@ describe("HelloWorld", () => {
       propsData: { msg }
     });
 
-    expect(wrapper.text()).toMatch(msg);
+    // expect(wrapper.text()).toMatch(msg);
+    expect(wrapper.text()).toMatchSnapshot(msg);
   });
 });
